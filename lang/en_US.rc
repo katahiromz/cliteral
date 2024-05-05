@@ -61,7 +61,7 @@ FONT 10, "Courier New"
 
 STRINGTABLE
 {
-    IDS_TITLE, "C++11 literal master"
+    IDS_TITLE, "C Literal Master"
     IDS_SYNTAX_ERROR, "Error: Syntax error in string literal."
     IDS_INVALID_ESCAPE, "Error: Incorrect escape sequence."
     IDS_QUOTE_NOT_FOUND, "Error: Double quotation mark ("") not found."
