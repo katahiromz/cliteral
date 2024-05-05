@@ -10,7 +10,7 @@ This program can interactively convert string data and string literals to each o
 
 ## Usage
 
-Double-click the executable “cliteral.exe” and enter the string data or string literals you wish to convert. You will get the result immediately.
+Double-click the executable “`cliteral.exe`” and enter the string data or string literals you wish to convert. You will get the result immediately.
 
 Sample data can be selected from the “ex)” button.
 
