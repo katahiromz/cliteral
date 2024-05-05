@@ -71,7 +71,7 @@ STRINGTABLE
     IDS_TEXT_LENGTH, "The text length: "
     IDS_BINARY_SIZE, "The binary size: "
     IDS_BYTES, "bytes"
-    IDS_BYTE_SEQUENCE, "The byte sequence (Hex): "
+    IDS_BYTE_SEQUENCE, "The byte sequence (hex): "
     IDS_MANUAL_URL, "https://en.cppreference.com/w/cpp/language/string_literal"
     IDS_INVALID_CHARSET, "Error: Some characters cannot be displayed in your codepage."
     IDS_DELIMITER_TOO_LONG, "Error: Raw string literal delimiter is too long."
