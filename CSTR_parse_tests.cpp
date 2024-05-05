@@ -15,6 +15,7 @@ int main(void)
         bool ret = CSTR_parse_ansi(output, "\"Test\\t<>\\n()\"", flags);
         assert(ret);
         std::printf("%s\n", output.c_str());
+        ret = ret;
     }
 #endif
     {
@@ -23,6 +24,7 @@ int main(void)
         bool ret = CSTR_parse_u8(output, u8"\"Test\\t<>\\n()\"", flags);
         assert(ret);
         std::printf("%s\n", output.c_str());
+        ret = ret;
     }
     {
         int flags = 0;
@@ -33,6 +35,7 @@ int main(void)
         ret = u8_from_u16(u8str, output);
         assert(ret);
         std::printf("%s\n", u8str.c_str());
+        ret = ret;
     }
     {
         int flags = 0;
@@ -43,6 +46,7 @@ int main(void)
         ret = u8_from_u32(u8str, output);
         assert(ret);
         std::printf("%s\n", u8str.c_str());
+        ret = ret;
     }
     std::puts("end");
     return 0;

@@ -408,6 +408,10 @@ namespace khmz
                 wsz[1] = wchar_t((ch & 0x3FF) | 0xDC00);
                 len = 2;
             }
+            else
+            {
+                return false;
+            }
 
             BOOL bDefault = FALSE;
             len = ::WideCharToMultiByte(UTFIO_CODEPAGE, 0, wsz, len, sz, 8, m_invalid, &bDefault);
@@ -600,7 +604,7 @@ namespace khmz
         {
             if (!can_write())
                 return false;
-            *m_first++ = swap_bytes(decltype(*m_first)(value));
+            *m_first++ = swap_bytes(char16_t(value));
             return true;
         }
     };

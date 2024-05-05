@@ -125,11 +125,11 @@ namespace khmz
         return BOM_NO_BOM;
     }
 
-    inline uint16_t swap_bytes(uint16_t value)
+    inline char16_t swap_bytes(char16_t value)
     {
         uint32_t lo = uint8_t(value & 0xFF);
         uint32_t hi = uint8_t(value >> 8);
-        return uint16_t(hi | (lo << 8));
+        return char16_t(hi | (lo << 8));
     }
 } // namespace khmz
 
